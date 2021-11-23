@@ -4,7 +4,6 @@ require_once 'Vehicle.php';
 class car extends Vehicle
 {
     private bool $hasParkBrake = true;
-}
 
  public function start()
 	{
@@ -23,3 +22,4 @@ class car extends Vehicle
 	{
 		return $this->hasParkBrake;
 	}
+}
